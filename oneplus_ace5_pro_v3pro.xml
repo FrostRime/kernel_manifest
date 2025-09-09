@@ -5,7 +5,6 @@
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
   <remote fetch="https://github.com/SQMY-dor" name="mine"/>
-  <remote fetch="https://github.com/aa123330" name="pianai">
   <project remote="mine" name="android_kernel_common_oneplus_sm8750" path="kernel_platform/common" revision="ace5pro_v3">
     <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
   </project>
