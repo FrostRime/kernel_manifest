@@ -13,7 +13,7 @@
     <linkfile dest="kernel_platform/build_with_bazel.py" src="build_with_bazel.py"/>
   </project>
   <project remote="origin" name="android_kernel_modules_and_devicetree_oneplus_sm8750" path="./" revision="oneplus/sm8750_v_15.0.0_oneplus_ace5_pro"/>
-  <!--<project remote="aosp" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" clone-depth="1" groups="ddk" revision="b46264b70e3cdf70d08c9ae2df6ea3002b242ebc">
+  <project remote="aosp" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" clone-depth="1" groups="ddk" revision="b46264b70e3cdf70d08c9ae2df6ea3002b242ebc">
     <linkfile dest="kernel_platform/build/prebuilts/kernel-build-tools" src="."/>
   </project>
   <project remote="aosp" name="platform/build/bazel_common_rules" path="kernel_platform/build/bazel_common_rules" groups="ddk" revision="212bca45fa9e280adc98081483f649814baf4b61" />
@@ -28,7 +28,7 @@
   <project remote="aosp" name="platform/external/bazelbuild-rules_license" path="kernel_platform/external/bazelbuild-rules_license" revision="f578df4fd057ffe2023728444759535685631548" groups="ddk-external" />
   <project remote="aosp" name="platform/external/bazelbuild-rules_pkg" path="kernel_platform/external/bazelbuild-rules_pkg" revision="632ab98c81cf295750dc096142d4ca76264084bc" groups="ddk-external" />
   <project remote="aosp" name="platform/external/bazelbuild-rules_python" path="kernel_platform/external/bazelbuild-rules_python" revision="f71847ac898655b67634bb14e77a7408c4fb5e00" groups="ddk-external" />
-  --><project remote="aosp" name="platform/external/python/absl-py" path="kernel_platform/external/python/absl-py" revision="9ae5a78fc57c3cd539398373ae39601a8b923e62" groups="ddk-external" />
+  <project remote="aosp" name="platform/external/python/absl-py" path="kernel_platform/external/python/absl-py" revision="9ae5a78fc57c3cd539398373ae39601a8b923e62" groups="ddk-external" />
   <project remote="aosp" name="platform/external/lz4" path="kernel_platform/external/lz4" revision="124599333514066524f55f5f41fbf0d46212e598" groups="ddk" />
   <project remote="aosp" name="platform/external/pigz" path="kernel_platform/external/pigz" revision="9bc9fa17d499ddde88b77820f6d063e16c0cdd42" groups="ddk" />
   <project remote="aosp" name="platform/external/toybox" path="kernel_platform/external/toybox" revision="91f90361fc563025e6d152d68d2072109500d602" groups="ddk" />
